@@ -1,0 +1,18 @@
+---
+layout: layout
+title: Publications - Ricardo Wagner C. Guerra Filho
+---
+<div class="container">
+	<h3>Publications</h3>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			{% for publication in site.publications %}
+				<div class="row">
+					<h5 style="text-align: center">
+						<strong>{{ publications.categories }}&nbsp;&nbsp;<a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></strong>
+					</h5>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

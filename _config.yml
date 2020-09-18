@@ -1,0 +1,29 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: https://rwguerra.github.io
+baseurl: https://rwguerra.github.io
+title: Mateus Bruno T. Lopes
+author: Mateus Lopes
+keywords: Project Manager, Scrum Master, Product Owner, Data Science, Ciência de Dados, Analytics, Power BI, BI, Redes de Computadores, Teste de Software.
+description: Mateus Bruno T. Lopes - Tecnólogo em Redes de Computadores, Especialista em Teste de Software, BI e Analytics, Project Manager, Scrum Master, Product Owner, Analytics, Power BI e Consultor de projetos de Ciência de Dados.
+avatar: profile.png # picture
+email: rwguerra@gmail.com # email
+github: rwguerra # username
+twitter: cadoguerra # username
+linkedin: guerraricardo # username
+medium: @rwguerra # username
+google_analytics: UA-178428297-1
+
+# needed for travis-ci build
+exclude: [vendor]
